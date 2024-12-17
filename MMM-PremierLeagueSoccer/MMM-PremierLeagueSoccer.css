@@ -1,0 +1,38 @@
+.MMM-PremierLeagueSoccer {
+    width: 80%;
+    max-width: 600px;
+    border-collapse: collapse;
+    white-space: nowrap;
+    text-align: left;
+    color: #ffffff;
+    background-color: transparent;
+    margin: 0 auto;
+    opacity: 0; 
+    animation: fadeIn 3s forwards;
+}
+
+.MMM-PremierLeagueSoccer tr:nth-child(8) {
+    opacity: 0.8;
+}
+
+.MMM-PremierLeagueSoccer tr:nth-child(9) {
+    opacity: 0.6;
+}
+
+.MMM-PremierLeagueSoccer tr:nth-child(10) {
+    opacity: 0.4;
+}
+
+.MMM-PremierLeagueSoccer tr:nth-child(11) {
+    opacity: 0.2;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
